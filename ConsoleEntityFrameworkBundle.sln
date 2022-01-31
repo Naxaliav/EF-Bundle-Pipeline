@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEntityFrameworkBundle", "ConsoleEntityFrameworkBundle.csproj", "{C3C9271B-BF6A-4C78-90CE-EC080C49CB84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEntityFrameworkBundle", "src\ConsoleEntityFrameworkBundle.csproj", "{C3C9271B-BF6A-4C78-90CE-EC080C49CB84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
