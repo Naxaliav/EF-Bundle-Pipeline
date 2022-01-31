@@ -13,6 +13,8 @@
 
 await host.RunAsync();
 
+Console.WriteLine("Dummy change");
+
 public sealed class ApplicationDbContext : DbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
