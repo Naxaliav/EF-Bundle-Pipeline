@@ -30,6 +30,8 @@ jobs:
           dotnet new tool-manifest
           dotnet tool install dotnet-ef
     - name: Build dotnet bundle
+      env:
+        ConnectionStrings__Default: ${{ secrets.ConnectionString }}
       run: dotnet ef migrations bundle --project ./src/ConsoleEntityFrameworkBundle.csproj -o bundle_migrations.exe
     - name: Deploy the Database Changes
       run: ./bundle_migrations.exe
